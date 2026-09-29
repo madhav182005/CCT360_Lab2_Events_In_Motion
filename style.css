@@ -1,0 +1,25 @@
+/* CCT360 Interactive JavaScript Lab */
+* {
+    box-sizing: border-box;
+}
+
+/* The entire webpage style of the contents of the body including standardizing the fonts, background color and margin/padding */
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: #f2f2f2;
+    color: #222222;
+}
+
+/* Header */
+header {
+    background-color: #1f3c5b;
+    color: white;
+
+    text-align: center;
+
+    padding: 25px;
+}
