@@ -3,12 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
+    <title>Madhav's Interactive Badminton Match</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>Welcome to My Website</h1>
+    <header>
+		<h1>Madhav's Badminton Match Dashboard</h1>
+		<p>Events in Motion - Madhav vs Aadi</p>
+	</header>
+
+    <main>
+        <section id="match-info">
+            <h2>Match Information</h2>
+            <p class="p">Player 1: Madhav</p>
+            <p class="p">Player 2: Aadi</p>
+            <p class="p">Score: 0 - 0</p>
+            <p id="match-status">
+                Match Status: Not Started
+            </p>
+
+        </section>
+
+        <section id="event-log">
+            <h2>Event Log</h2>
+            <ul id="events">
+                <!-- Events will be dynamically added here -->
+                <li>Waiting for the match to start.</li>
+            </ul>
+        </section>
+
+        <section id="controls">
+        <h2>Controls</h2>
+
+        <button id="start-match">Start Match</button>
+
+        <button id="madhav-point">Point for Madhav</button>
+
+        <button id="aadi-point">Point for Aadi</button>
+
+        <button id="end-match">End Match</button>
+         </section>
+
+    </main>
+
+    <footer>
+        <p>CCT360 - Web Development and Design II</p>
+    </footer>
     
-    <p>Hello World!</p>
+    <script src="script.js"></script>
+
 </body>
 </html>
