@@ -143,6 +143,15 @@ button:hover {
     background-color: #a84242;
 }
 
+#reset-match {
+    background-color: #555555;
+    margin-top: 15px;
+}
+
+#reset-match:hover {
+    background-color: #707070;
+}
+
 /* Footer placement and style correction*/
 footer {
     background-color: #1f3c5b;
@@ -170,5 +179,5 @@ footer {
 
             margin: 10px 0;
         }
-        
+
 }

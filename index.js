@@ -95,3 +95,25 @@ document.getElementById("end-match").addEventListener("click", function() {
 
     }
 });
+
+// Reset Match
+document.getElementById("reset-match").addEventListener("click", function() {
+
+    madhavScore = 0;
+    aadiScore = 0;
+
+    matchStarted = false;
+
+    document.getElementById("score").innerHTML =
+        "Madhav: 0 | Aadi: 0";
+
+    document.getElementById("match-status").innerHTML =
+        "Match Status: Not Started";
+
+    document.getElementById("match-status").style.backgroundColor =
+        "#eeeeee";
+
+    document.getElementById("events").innerHTML =
+        "<li>Waiting for the match to start.</li>";
+
+});
