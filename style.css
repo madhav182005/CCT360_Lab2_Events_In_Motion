@@ -23,3 +23,152 @@ header {
 
     padding: 25px;
 }
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin-bottom: 0;
+}
+
+/* Main Content styling*/
+main {
+    width: 80%;
+    max-width: 900px;
+
+    margin: 30px auto;
+}
+
+/* Match Information display style*/
+#match-info {
+    background-color: white;
+
+    padding: 25px;
+    margin-bottom: 20px;
+
+    border-radius: 8px;
+
+    text-align: center;
+}
+
+#match-info h2 {
+    color: #1f3c5b;
+}
+
+.p {
+    font-size: 18px;
+}
+
+#score {
+    font-size: 30px;
+    font-weight: bold;
+
+    margin: 25px 0;
+}
+
+#match-status {
+    background-color: #eeeeee;
+
+    font-size: 18px;
+    padding: 12px;
+
+    border-radius: 5px;
+}
+
+/* Event Log and tracker style*/
+#event-log {
+    background-color: white;
+
+    padding: 25px;
+    margin-bottom: 20px;
+
+    border-radius: 8px;
+}
+
+#event-log h2 {
+    color: #1f3c5b;
+}
+
+#events {
+    padding-left: 25px;
+}
+
+#events li {
+    margin-bottom: 8px;
+}
+
+/* Control section style */
+#controls {
+    background-color: white;
+
+    padding: 25px;
+
+    border-radius: 8px;
+
+    text-align: center;
+}
+
+#controls h2 {
+    color: #1f3c5b;
+}
+
+/* Customizing and styling buttons and cursor click*/
+button {
+    background-color: #1f3c5b;
+    color: white;
+
+    border: none;
+
+    padding: 12px 18px;
+    margin: 5px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #3a5f8c;
+}
+
+/* End Match button style and output */
+#end-match {
+    background-color: #8b2f2f;
+}
+
+#end-match:hover {
+    background-color: #a84242;
+}
+
+/* Footer placement and style correction*/
+footer {
+    background-color: #1f3c5b;
+    color: white;
+
+    text-align: center;
+
+    padding: 15px;
+
+    margin-top: 30px;
+}
+
+
+/* Style for operating site and game on Smaller Screens */
+@media (max-width: 650px) {
+
+    main {
+        width: 95%;
+    }
+
+        button {
+            display: block;
+
+            width: 100%;
+
+            margin: 10px 0;
+        }
+        
+}
